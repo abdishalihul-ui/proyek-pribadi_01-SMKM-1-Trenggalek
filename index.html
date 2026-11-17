@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMate - Pengingat Tugas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>TaskMate</h1>
+            <p>Pengingat Tugas Sekolah</p>
+        </header>
+
+        <section class="welcome">
+            <h2>Halo, Selamat Datang! 👋</h2>
+            <p>Jangan lupa selesaikan tugas sekolahmu.</p>
+        </section>
+
+        <section class="task-form">
+            <h2>Tambah Tugas Baru</h2>
+
+            <form id="taskForm">
+                <input
+                    type="text"
+                    id="taskName"
+                    placeholder="Masukkan nama tugas..."
+                    required
+                >
+
+                <input
+                    type="date"
+                    id="taskDate"
+                    required
+                >
+
+                <button type="submit">+ Tambah Tugas</button>
+            </form>
+        </section>
+
+        <section class="task-list">
+            <h2>Daftar Tugas</h2>
+
+            <div id="taskContainer">
+                <p class="empty">Belum ada tugas.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 TaskMate | Dibuat untuk Pelajar</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
